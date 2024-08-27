@@ -6,11 +6,16 @@
     "display": "standalone",
     "background": "#0D192C",
     "theme_color": "#000000",
-    "orientarion": "portrait",
+    "orientation": "portrait",
     "icons": [
         {
-            "src": "android-chrome-192x192.png" ,
+            "src": "android-192x192.png" ,
             "size": "192x192" ,
+            "type": "image/png"
+        },
+        {
+            "src": "pc-512x512.png" ,
+            "size": "512x512" ,
             "type": "image/png"
         }
     ]

@@ -6,17 +6,8 @@ const error = document.querySelector('.error');
 
 
 
-if('serviceWorker' in navigator){
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js')
-        .then(registration =>{
-            console.log("Conseguimo rodar essa bomba", registration)
-        })
-        .catch(error =>{
-            console.log('Deu Ruim', error);
-        })
-    })
-}
+
+
 
 let itemsList = []
 
@@ -124,3 +115,15 @@ function loadTasks() {
 loadTasks()
 
 button.addEventListener('click', addingTask)
+
+if('serviceWorker' in navigator){
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+        .then(registration =>{
+            console.log("Conseguimo rodar essa bomba", registration)
+        })
+        .catch(error =>{
+            console.log('Deu Ruim', error);
+        })
+    })
+}

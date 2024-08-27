@@ -1,11 +1,12 @@
 const CACHES = 'todo-today-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/scripts.js',
-  '/android-chrome-192x192.png',
-  'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'
+    '/',
+    'index.html',
+    'styles.css',
+    'scripts.js',
+    'android-192x192.png',
+    'pc-512x512.png',
+    'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css'
 ];
 
 self.addEventListener('install', event => {
