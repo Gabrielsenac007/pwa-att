@@ -1,0 +1,17 @@
+{
+    "name": "TODO TODAY",
+    "short_name": "TODO",
+    "description": "List todas suas atividades diárias",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background": "#0D192C",
+    "theme_color": "#000000",
+    "orientarion": "portrait",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png" ,
+            "size": "192x192" ,
+            "type": "image/png"
+        }
+    ]
+}
